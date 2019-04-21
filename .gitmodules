@@ -1,0 +1,83 @@
+[submodule "llvm"]
+	path = llvm
+	url = https://github.com/apple/swift-llvm.git
+	branch = stable
+[submodule "clang"]
+	path = clang
+	url = https://github.com/apple/swift-clang.git
+	branch = stable
+[submodule "swift"]
+	path = swift
+	url = https://github.com/apple/swift.git
+	branch = master
+[submodule "lldb"]
+	path = lldb
+	url = https://github.com/apple/swift-lldb.git
+	branch = stable
+[submodule "cmark"]
+	path = cmark
+	url = https://github.com/apple/swift-cmark.git
+	branch = master
+[submodule "llbuild"]
+	path = llbuild
+	url = https://github.com/apple/swift-llbuild.git
+	branch = master
+[submodule "swiftpm"]
+	path = swiftpm
+	url = https://github.com/apple/swift-package-manager.git
+	branch = master
+[submodule "swift-syntax"]
+	path = swift-syntax
+	url = https://github.com/apple/swift-syntax.git
+	branch = master
+[submodule "swift-stress-tester"]
+	path = swift-stress-tester
+	url = https://github.com/apple/swift-stress-tester.git
+	branch = master
+[submodule "compiler-rt"]
+	path = compiler-rt
+	url = https://github.com/apple/swift-compiler-rt.git
+	branch = stable
+[submodule "swift-corelibs-xctest"]
+	path = swift-corelibs-xctest
+	url = https://github.com/apple/swift-corelibs-xctest.git
+	branch = master
+[submodule "swift-corelibs-foundation"]
+	path = swift-corelibs-foundation
+	url = https://github.com/apple/swift-corelibs-foundation.git
+	branch = master
+[submodule "swift-corelibs-libdispatch"]
+	path = swift-corelibs-libdispatch
+	url = https://github.com/apple/swift-corelibs-libdispatch.git
+	branch = master
+[submodule "swift-integration-tests"]
+	path = swift-integration-tests
+	url = https://github.com/apple/swift-integration-tests.git
+	branch = master
+[submodule "swift-xcode-playground-support"]
+	path = swift-xcode-playground-support
+	url = https://github.com/apple/swift-xcode-playground-support.git
+	branch = master
+[submodule "ninja"]
+	path = ninja
+	url = https://github.com/ninja-build/ninja.git
+	branch = release
+[submodule "libcxx"]
+	path = libcxx
+	url = https://github.com/apple/swift-libcxx.git
+	branch = stable
+[submodule "clang-tools-extra"]
+	path = clang-tools-extra
+	url = https://github.com/apple/swift-clang-tools-extra.git
+	branch = stable
+[submodule "indexstore-db"]
+	path = indexstore-db
+	url = https://github.com/apple/indexstore-db.git
+	branch = master
+[submodule "sourcekit-lsp"]
+	path = sourcekit-lsp
+	url = https://github.com/apple/sourcekit-lsp.git
+	branch = master
+[submodule "icu"]
+	path = icu
+	url = https://github.com/unicode-org/icu.git
