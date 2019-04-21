@@ -1,15 +1,15 @@
 [submodule "llvm"]
 	path = llvm
-	url = https://github.com/apple/swift-llvm.git
-	branch = stable
+	url = https://github.com/swiftwasm/swift-llvm.git
+	branch = stable-swiftwasm
 [submodule "clang"]
 	path = clang
-	url = https://github.com/apple/swift-clang.git
-	branch = stable
+	url = https://github.com/swiftwasm/swift-clang.git
+	branch = stable-swiftwasm
 [submodule "swift"]
 	path = swift
-	url = https://github.com/apple/swift.git
-	branch = master
+	url = https://github.com/swiftwasm/swift.git
+	branch = swiftwasm
 [submodule "lldb"]
 	path = lldb
 	url = https://github.com/apple/swift-lldb.git
