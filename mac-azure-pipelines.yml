@@ -19,6 +19,6 @@ jobs:
     inputs:
       gitHubConnection: github-release
       tagSource: manual
-      tag: $(Build.BuildNumber)
+      tag: $(Build.BuildNumber).mac
       assets: |
         $(Build.ArtifactStagingDirectory)/*
