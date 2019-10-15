@@ -4,11 +4,12 @@ sourcedir="$PWD"
 # install dependencies
 sudo apt-get update
 sudo apt-get install apt-transport-https ca-certificates gnupg \
-	software-properties-common wget git cmake ninja-build clang python uuid-dev \
+	software-properties-common wget git ninja-build clang python uuid-dev \
 	libicu-dev icu-devtools libbsd-dev libedit-dev libxml2-dev libsqlite3-dev \
 	swig libpython-dev libncurses5-dev pkg-config libblocksruntime-dev \
 	libcurl4-openssl-dev systemtap-sdt-dev tzdata rsync
 # install latest cmake
+sudo rm /usr/local/bin/cmake
 wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | sudo apt-key add -
 sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ xenial main'
 sudo apt-get update
