@@ -3,7 +3,16 @@ set -e
 sourcedir="$PWD"
 # install dependencies
 sudo apt update
-sudo apt install git cmake ninja-build clang python uuid-dev libicu-dev icu-devtools libbsd-dev libedit-dev libxml2-dev libsqlite3-dev swig libpython-dev libncurses5-dev pkg-config libblocksruntime-dev libcurl4-openssl-dev systemtap-sdt-dev tzdata rsync
+sudo apt install apt-transport-https ca-certificates gnupg \
+	software-properties-common wget git cmake ninja-build clang python uuid-dev \
+	libicu-dev icu-devtools libbsd-dev libedit-dev libxml2-dev libsqlite3-dev \
+	swig libpython-dev libncurses5-dev pkg-config libblocksruntime-dev \
+	libcurl4-openssl-dev systemtap-sdt-dev tzdata rsync
+# install latest cmake
+wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | sudo apt-key add -
+sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ xenial main'
+sudo apt update
+apt install cmake
 # install the WASI sdk
 wget -O wasisdk.deb "https://github.com/swiftwasm/wasi-sdk/releases/download/20190421.6/wasi-sdk_3.19gefb17cb478f9.m_amd64.deb"
 sudo dpkg -i wasisdk.deb
