@@ -2,6 +2,8 @@
 # On Mac, we don't build Stdlib, just the compiler, since macOS doesn't support cross compiling for non-Darwin targets.
 set -e
 sourcedir="$PWD"
+
+sudo xcode-select --switch /Applications/Xcode_11.app/Contents/Developer
 # install dependencies
 brew install ninja llvm
 # start build
