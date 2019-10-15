@@ -3,7 +3,7 @@
 set -e
 sourcedir="$PWD"
 
-sudo xcode-select --switch /Applications/Xcode_11.app/Contents/Developer
+sudo xcode-select --switch /Applications/Xcode_11.1.app/Contents/Developer
 # install dependencies
 brew install ninja llvm
 # start build
