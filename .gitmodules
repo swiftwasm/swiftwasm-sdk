@@ -1,7 +1,7 @@
 [submodule "swift"]
 	path = swift
 	url = https://github.com/swiftwasm/swift.git
-	branch = swiftwasm
+	branch = swiftwasm-monorepo
 [submodule "cmark"]
 	path = cmark
 	url = https://github.com/apple/swift-cmark.git
