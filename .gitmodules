@@ -81,3 +81,6 @@
 [submodule "icu"]
 	path = icu
 	url = https://github.com/unicode-org/icu.git
+[submodule "llvm-project"]
+	path = llvm-project
+	url = git@github.com:swiftwasm/llvm-project.git
