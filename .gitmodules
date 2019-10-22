@@ -1,19 +1,7 @@
-[submodule "llvm"]
-	path = llvm
-	url = https://github.com/swiftwasm/swift-llvm.git
-	branch = stable-swiftwasm
-[submodule "clang"]
-	path = clang
-	url = https://github.com/swiftwasm/swift-clang.git
-	branch = stable-swiftwasm
 [submodule "swift"]
 	path = swift
 	url = https://github.com/swiftwasm/swift.git
 	branch = swiftwasm
-[submodule "lldb"]
-	path = lldb
-	url = https://github.com/apple/swift-lldb.git
-	branch = stable
 [submodule "cmark"]
 	path = cmark
 	url = https://github.com/apple/swift-cmark.git
@@ -34,10 +22,6 @@
 	path = swift-stress-tester
 	url = https://github.com/apple/swift-stress-tester.git
 	branch = master
-[submodule "compiler-rt"]
-	path = compiler-rt
-	url = https://github.com/apple/swift-compiler-rt.git
-	branch = stable
 [submodule "swift-corelibs-xctest"]
 	path = swift-corelibs-xctest
 	url = https://github.com/apple/swift-corelibs-xctest.git
@@ -62,14 +46,6 @@
 	path = ninja
 	url = https://github.com/ninja-build/ninja.git
 	branch = release
-[submodule "libcxx"]
-	path = libcxx
-	url = https://github.com/apple/swift-libcxx.git
-	branch = stable
-[submodule "clang-tools-extra"]
-	path = clang-tools-extra
-	url = https://github.com/apple/swift-clang-tools-extra.git
-	branch = stable
 [submodule "indexstore-db"]
 	path = indexstore-db
 	url = https://github.com/apple/indexstore-db.git
@@ -84,3 +60,4 @@
 [submodule "llvm-project"]
 	path = llvm-project
 	url = https://github.com/swiftwasm/llvm-project.git
+	branch = swiftwasm
