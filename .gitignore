@@ -4,3 +4,4 @@ icu_out
 wasi-sdk
 wasi-sdk.tar.gz
 icu.tar.xz
+.DS_Store
